@@ -1,1 +1,5 @@
 # DATAENCRYPTION_HSI
+
+The main advantage of this technique is that it is not a regular cyber attack prevention technique but rather a data protection technique.First we would hide the data in an HSI mimicking that HSI is our original data.Even then if the intruder sense the data , he has to first find out the correct intensities of pixels as we have toyed with pixel intensities.Then he has to find out the location of each data pixel which is stored at various segments of HSI and have to concatenate them in order.Even if he knows the location , to access data values correctly he needs to know encrypted key.So basically it is a 3 factor authenticated encryption technique.So it has a lot of scope in current world in many domains like defense,finance,health care etc.
+
+In this prototype, we considered an image as input data and applied our technique.But we can apply to all kind of data as every data is considered as bits by computer.In future,we can still improve the strength of technique by enhancing key encryption and steganographic locations.
